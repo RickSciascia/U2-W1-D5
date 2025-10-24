@@ -1,0 +1,109 @@
+body {
+  font-family: "Roboto";
+  margin: 0;
+}
+h1 {
+  font-family: "Spectral";
+  font-weight: bold;
+}
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #191919;
+}
+header {
+  margin: 10 0 10 0;
+}
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+  height: 50px;
+}
+.hiddenNav {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .hiddenNav {
+    display: list-item;
+  }
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  margin-left: 10px;
+}
+.blackBtn {
+  background-color: #191919;
+  color: white;
+  border: 1px solid #191919;
+  border-radius: 25px;
+  padding: 5px 15px;
+  align-self: flex-start;
+}
+.heroSection {
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+  height: 250px;
+  display: flex;
+}
+.heroSection div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px;
+}
+.heroSection h1 {
+  align-self: flex-start;
+  font-size: 36pt;
+  margin: 10px 0px;
+}
+.heroSection svg {
+  display: none;
+}
+.trending > p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.trending {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.trendingCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position: relative;
+}
+.cardN {
+  width: 10%;
+}
+.cardContent {
+  width: 90%;
+}
+.cardContent img {
+  max-width: 15px;
+  border-radius: 7px;
+}
