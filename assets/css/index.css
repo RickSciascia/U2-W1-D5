@@ -88,17 +88,23 @@ li {
 .trending {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  border-bottom: 1px solid #191919;
 }
 .trendingCard {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  position: relative;
+  margin: 5px;
 }
 .cardN {
   width: 10%;
+  display: flex;
+  justify-content: center;
+}
+.cardN h2 {
+  color: #e7e7e6;
+  font-size: x-large;
 }
 .cardContent {
   width: 90%;
