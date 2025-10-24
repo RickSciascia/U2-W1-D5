@@ -261,10 +261,10 @@ li {
   }
   .artContainer {
     order: 1;
-    width: 70%;
+    width: 65%;
   }
   .discover {
     order: 2;
-    width: 30%;
+    width: 35%;
   }
 }
