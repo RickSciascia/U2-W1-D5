@@ -251,6 +251,9 @@ li {
   .trendingCard {
     width: 48%;
   }
+  .art {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 1200px) {
   .trendingCard {
@@ -266,5 +269,8 @@ li {
   .discover {
     order: 2;
     width: 35%;
+  }
+  .art {
+    width: 100%;
   }
 }
